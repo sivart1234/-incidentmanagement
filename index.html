@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>IncidentManagement.ai — Premium .ai Domain</title>
+<meta name="description" content="IncidentManagement.ai is available for acquisition. A category-defining .ai domain for the future of AI-powered incident response.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,300;1,6..72,400;1,6..72,500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #030609;
+  --surface: #070B12;
+  --border: rgba(255,255,255,.045);
+  --text-primary: #E6EAF0;
+  --text-secondary: #8896AB;
+  --text-muted: #4D5D73;
+  --ac: #00D9A3;
+  --ac-hover-bg: rgba(0,217,163,.06);
+  --ac-border: rgba(0,217,163,.18);
+  --ac-blue: #00B4D8;
+  --serif: 'Newsreader', Georgia, serif;
+  --sans: 'Inter', -apple-system, sans-serif;
+}
+
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  background: var(--bg);
+  color: var(--text-primary);
+  font-family: var(--sans);
+  font-weight: 400;
+  line-height: 1.7;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+a { color: var(--ac); text-decoration: none; transition: opacity .2s; }
+a:hover { opacity: .85; }
+
+/* ── NAV ── */
+.nav {
+  position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 1.25rem 3rem;
+  background: rgba(3,6,9,.75);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border-bottom: 1px solid var(--border);
+}
+
+.nav-logo {
+  display: flex; align-items: center; gap: .75rem;
+  font-family: var(--sans); font-weight: 600; font-size: .9rem;
+  color: var(--text-secondary); letter-spacing: .03em;
+}
+
+.nav-logo .monogram {
+  width: 32px; height: 32px; border-radius: 6px;
+  background: linear-gradient(135deg, var(--ac), var(--ac-blue));
+  display: flex; align-items: center; justify-content: center;
+  font-family: var(--serif); font-weight: 600; font-size: .85rem;
+  color: var(--bg); letter-spacing: -.02em;
+}
+
+.nav-inquire {
+  padding: .55rem 1.5rem; border-radius: 6px;
+  border: 1px solid var(--ac-border);
+  background: var(--ac-hover-bg);
+  color: var(--ac);
+  font-family: var(--sans); font-size: .8rem; font-weight: 500;
+  letter-spacing: .04em; text-transform: uppercase;
+  transition: all .25s;
+}
+.nav-inquire:hover {
+  background: var(--ac); color: var(--bg); opacity: 1;
+  box-shadow: 0 0 30px rgba(0,217,163,.15);
+}
+
+/* ── HERO ── */
+.hero {
+  min-height: 100vh;
+  display: flex; flex-direction: column;
+  align-items: center; justify-content: center;
+  text-align: center;
+  padding: 8rem 2rem 6rem;
+  position: relative;
+}
+
+.hero::before {
+  content: '';
+  position: absolute; top: 0; left: 50%; transform: translateX(-50%);
+  width: 600px; height: 600px;
+  background: radial-gradient(circle, rgba(0,217,163,.04) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+.hero-label {
+  font-family: var(--sans);
+  font-size: .7rem; font-weight: 600;
+  letter-spacing: .18em; text-transform: uppercase;
+  color: var(--ac);
+  margin-bottom: 2.5rem;
+}
+
+.hero-title {
+  font-family: var(--serif);
+  font-size: clamp(2.8rem, 6.5vw, 5.5rem);
+  font-weight: 400;
+  line-height: 1.08;
+  letter-spacing: -.025em;
+  color: var(--text-primary);
+  max-width: 900px;
+}
+
+.hero-title em {
+  font-style: italic;
+  color: var(--ac);
+}
+
+.hero-sub {
+  margin-top: 2rem;
+  font-family: var(--sans);
+  font-size: 1.05rem;
+  color: var(--text-secondary);
+  max-width: 520px;
+  line-height: 1.8;
+}
+
+.hero-cta {
+  margin-top: 3rem;
+  display: inline-flex; align-items: center; gap: .5rem;
+  padding: .75rem 2rem; border-radius: 6px;
+  border: 1px solid var(--ac-border);
+  background: var(--ac-hover-bg);
+  color: var(--ac);
+  font-family: var(--sans); font-size: .8rem; font-weight: 500;
+  letter-spacing: .06em; text-transform: uppercase;
+  transition: all .3s;
+}
+.hero-cta:hover {
+  background: var(--ac); color: var(--bg); opacity: 1;
+  box-shadow: 0 0 40px rgba(0,217,163,.12);
+}
+
+/* ── SECTIONS ── */
+.section {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 5rem 2rem;
+}
+
+.section-label {
+  font-family: var(--sans);
+  font-size: .65rem; font-weight: 600;
+  letter-spacing: .2em; text-transform: uppercase;
+  color: var(--ac);
+  margin-bottom: 1.5rem;
+}
+
+.section-heading {
+  font-family: var(--serif);
+  font-size: clamp(1.6rem, 3vw, 2.2rem);
+  font-weight: 400;
+  line-height: 1.25;
+  letter-spacing: -.015em;
+  color: var(--text-primary);
+  margin-bottom: 1.75rem;
+}
+
+.section p {
+  color: var(--text-secondary);
+  font-size: .95rem;
+  margin-bottom: 1.25rem;
+  line-height: 1.85;
+}
+
+.divider {
+  max-width: 760px; margin: 0 auto;
+  border: none;
+  border-top: 1px solid var(--border);
+}
+
+/* ── STATS GRID ── */
+.stats-grid {
+  max-width: 760px; margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.stat-cell {
+  padding: 2rem 1.75rem;
+  border-bottom: 1px solid var(--border);
+  border-right: 1px solid var(--border);
+}
+
+.stat-cell:last-child,
+.stat-cell:nth-child(even) { border-right: none; }
+
+.stat-value {
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: var(--text-primary);
+  letter-spacing: -.02em;
+  margin-bottom: .4rem;
+}
+
+.stat-label {
+  font-family: var(--sans);
+  font-size: .72rem;
+  font-weight: 500;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+/* ── CTA CARD ── */
+.cta-card {
+  max-width: 760px; margin: 5rem auto;
+  border: 1px solid var(--ac-border);
+  border-radius: 10px;
+  background: var(--surface);
+  padding: 3.5rem;
+  text-align: center;
+}
+
+.cta-card .section-label { margin-bottom: 1rem; }
+
+.cta-card .section-heading { margin-bottom: 1rem; }
+
+.cta-card p {
+  color: var(--text-secondary);
+  font-size: .9rem;
+  margin-bottom: 2rem;
+}
+
+.cta-btn {
+  display: inline-flex; align-items: center; gap: .6rem;
+  padding: .85rem 2.5rem; border-radius: 6px;
+  background: var(--ac);
+  color: var(--bg);
+  font-family: var(--sans); font-size: .8rem; font-weight: 600;
+  letter-spacing: .06em; text-transform: uppercase;
+  transition: all .3s;
+}
+.cta-btn:hover {
+  opacity: 1;
+  box-shadow: 0 0 50px rgba(0,217,163,.2);
+  transform: translateY(-1px);
+}
+
+.cta-btn svg { width: 14px; height: 14px; }
+
+/* ── FOOTER ── */
+.footer {
+  text-align: center;
+  padding: 4rem 2rem 3rem;
+  border-top: 1px solid var(--border);
+}
+
+.footer .nav-logo {
+  display: inline-flex; margin-bottom: 1rem;
+}
+
+.footer p {
+  font-size: .75rem;
+  color: var(--text-muted);
+  letter-spacing: .03em;
+}
+
+.footer a { color: var(--text-muted); }
+.footer a:hover { color: var(--ac); }
+
+/* ── RESPONSIVE ── */
+@media (max-width: 640px) {
+  .nav { padding: 1rem 1.5rem; }
+  .section { padding: 3.5rem 1.5rem; }
+  .stats-grid { grid-template-columns: 1fr; }
+  .stat-cell { border-right: none; }
+  .cta-card { padding: 2.5rem 1.5rem; margin: 3rem 1rem; }
+  .hero { padding: 7rem 1.5rem 4rem; }
+}
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav class="nav">
+  <a href="https://domaincapital.ai" class="nav-logo">
+    <span class="monogram">DC</span>
+    Domain Capital
+  </a>
+  <a href="mailto:acquisitions@domaincapital.ai" class="nav-inquire">Inquire</a>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <p class="hero-label">Premium .ai Domain</p>
+  <h1 class="hero-title">Incident<em>Management</em>.ai</h1>
+  <p class="hero-sub">The definitive domain for AI-powered incident management — available for confidential acquisition.</p>
+  <a href="mailto:acquisitions@domaincapital.ai" class="hero-cta">
+    <svg viewBox="0 0 20 20" fill="currentColor" width="14" height="14"><path d="M2.94 6.34l7.06 4.24 7.06-4.24A2 2 0 0015.07 4H4.93a2 2 0 00-1.99 2.34z"/><path d="M18 8.12l-7.47 4.48a1 1 0 01-1.06 0L2 8.12V14a2 2 0 002 2h12a2 2 0 002-2V8.12z"/></svg>
+    Begin Confidential Inquiry
+  </a>
+</section>
+
+<hr class="divider">
+
+<!-- THE DOMAIN -->
+<section class="section">
+  <p class="section-label">The Domain</p>
+  <h2 class="section-heading">One name. One category. One opportunity.</h2>
+  <p>Incident management sits at the centre of every modern IT, security, and DevOps operation. It is the process organisations rely on when systems fail, threats emerge, and every second of downtime costs revenue and reputation.</p>
+  <p><strong style="color:var(--text-primary)">IncidentManagement.ai</strong> is the exact-match category domain for this entire market — a market now being transformed by artificial intelligence. From autonomous triage to AI-driven root cause analysis, the organisations defining the future of incident response need a digital presence that matches their ambition.</p>
+  <p>There is only one IncidentManagement.ai. Once acquired, it is permanently off the market.</p>
+</section>
+
+<hr class="divider">
+
+<!-- STRATEGIC VALUE -->
+<section class="section">
+  <p class="section-label">Strategic Value</p>
+  <h2 class="section-heading">Why this domain commands attention</h2>
+  <p>Category-keyword .ai domains are nearly fully registered. Exact-match names at this level — names that define an entire market segment — are no longer available through standard registration. They can only be acquired from current holders.</p>
+  <p>For any organisation building AI-powered incident management solutions, this domain delivers immediate brand authority, investor-grade optics, unmatched search positioning, and permanent competitive protection. It is the kind of asset that compounds in value as the AI era accelerates.</p>
+  <p>Google classifies .ai as a generic top-level domain. It ranks identically to .com with zero SEO penalty — while carrying the unmistakable signal that your organisation is AI-native.</p>
+</section>
+
+<hr class="divider">
+
+<!-- .AI OPPORTUNITY -->
+<section class="section">
+  <p class="section-label">The .ai Opportunity</p>
+  <h2 class="section-heading">A domain extension unlike any other</h2>
+  <p>The .ai extension was originally the country-code domain for Anguilla, a British Overseas Territory in the Caribbean. In 2021, Google reclassified .ai as a generic top-level domain — granting it the same search authority as .com worldwide.</p>
+  <p>Since then, .ai has become the fastest-growing domain extension in the world. Registrations have surged from 60,000 in 2022 to over 632,000 in 2025 — with a renewal rate exceeding 90%, the highest of any TLD. Leading technology companies, AI startups, and Fortune 500 organisations now treat premium .ai domains as permanent strategic assets.</p>
+  <p>The aftermarket reflects this conviction. The highest recorded .ai domain sale now exceeds $1.5 million, and category-defining names continue to set new benchmarks as AI adoption accelerates across every industry.</p>
+</section>
+
+<hr class="divider">
+
+<!-- STATS -->
+<section class="section" style="padding-bottom: 2rem;">
+  <p class="section-label">Market Data</p>
+  <h2 class="section-heading">The .ai landscape in numbers</h2>
+</section>
+
+<div class="stats-grid">
+  <div class="stat-cell">
+    <div class="stat-value">$1.2M+</div>
+    <div class="stat-label">Highest Recorded .ai Sale</div>
+  </div>
+  <div class="stat-cell">
+    <div class="stat-value">1,200%</div>
+    <div class="stat-label">Registration Growth 2018–2025</div>
+  </div>
+  <div class="stat-cell">
+    <div class="stat-value">632,000+</div>
+    <div class="stat-label">Domains Registered Globally</div>
+  </div>
+  <div class="stat-cell">
+    <div class="stat-value">90%</div>
+    <div class="stat-label">Renewal Rate (Highest of Any TLD)</div>
+  </div>
+  <div class="stat-cell">
+    <div class="stat-value">Zero</div>
+    <div class="stat-label">SEO Penalty vs .com</div>
+  </div>
+  <div class="stat-cell">
+    <div class="stat-value">2 Years</div>
+    <div class="stat-label">Minimum Registration Term</div>
+  </div>
+</div>
+
+<hr class="divider" style="margin-top: 5rem;">
+
+<!-- CTA CARD -->
+<div class="cta-card">
+  <p class="section-label">Acquire This Domain</p>
+  <h2 class="section-heading">Begin a confidential conversation</h2>
+  <p>We are currently in discussions with a small number of organisations in this space. All inquiries are handled with complete discretion.</p>
+  <a href="mailto:acquisitions@domaincapital.ai" class="cta-btn">
+    <svg viewBox="0 0 20 20" fill="currentColor" width="14" height="14"><path d="M2.94 6.34l7.06 4.24 7.06-4.24A2 2 0 0015.07 4H4.93a2 2 0 00-1.99 2.34z"/><path d="M18 8.12l-7.47 4.48a1 1 0 01-1.06 0L2 8.12V14a2 2 0 002 2h12a2 2 0 002-2V8.12z"/></svg>
+    acquisitions@domaincapital.ai
+  </a>
+</div>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <a href="https://domaincapital.ai" class="nav-logo">
+    <span class="monogram">DC</span>
+    Domain Capital
+  </a>
+  <p>Listed by <a href="https://domaincapital.ai">DomainCapital.ai</a></p>
+</footer>
+
+</body>
+</html>
